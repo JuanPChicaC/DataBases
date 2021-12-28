@@ -1,4 +1,4 @@
-# Databases
+# SQL Databases
 This directory contain all the SQL databases used to support the solutions that are publisehd in other repositories.
 
 ### [Portfolio Optimization DataBase](https://github.com/JuanPChicaC/DataBases/tree/main/SQL/Portfolio%20Optimization%20DataBase)
