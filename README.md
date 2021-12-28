@@ -5,7 +5,7 @@ This repository contains all the storage solutions required to support projects 
 This folder contain all the ETL developments for store information in SQL and no SQL databases
 
 ### [NoSQL](https://github.com/JuanPChicaC/DataBases/tree/main/NoSQL)
-this folder contain the code to replicate NoSQL databases developed for different kind of solutions
+This folder contain the code to replicate NoSQL databases developed for different kind of solutions
 
-###[SQL](https://github.com/JuanPChicaC/DataBases/tree/main/SQL)
-this folder contain the code to replicate SQL databases developed for different kind of solutions
+### [SQL](https://github.com/JuanPChicaC/DataBases/tree/main/SQL)
+This folder contain the code to replicate SQL databases developed for different kind of solutions
