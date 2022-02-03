@@ -1,0 +1,25 @@
+{
+  "db_configuration": {
+    "production": {
+      "username": "<production_username>",
+      "password": "<production_password>",
+      "host": "<production_host>",
+      "port": "<production_port>",
+      "schema": "<production_schema>"
+    },
+    "testing": {
+      "username": "<testing_username>",
+      "password": "<testing_password>",
+      "host": "<testing_host>",
+      "port": "<testing_port>",
+      "schema": "<testing_schema>"
+    },
+    "development": {
+      "username": "root",
+      "password": "Password",
+      "host": "localhost",
+      "port": "3306",
+      "schema": "portfolio_optimization"
+    }
+  }
+}
