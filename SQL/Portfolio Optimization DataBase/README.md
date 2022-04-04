@@ -14,6 +14,7 @@ This entity containa all the possible options for periods available in Yahoo Fin
 This table is used to broke the relation many to many that Portfolio and Asset entities has, It is just a normalization great practice.
 - **Asset**\
 This table contains all the symbol list that Yahoo Finance has, it will be filled by a [ETL Process](https://github.com/JuanPChicaC/DataBases/tree/main/ETL)
-- **TYpe_Asset**\
-
+- **Type_Asset**\
+This table contains the information about the type of asset options available for the symbols that are saved in the Asset table.
 - **Exchange**\
+This table contains the information about the Exchange options available for the symbols that are saved in the Asset table.
