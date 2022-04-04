@@ -11,7 +11,9 @@ This entity containa all the possible options for intervals available in Yahoo F
 - **Period**\
 This entity containa all the possible options for periods available in Yahoo Finance API
 - **Portfolio_Asset**\
- 
+This table is used to broke the relation many to many that Portfolio and Asset entities has, It is just a normalization great practice.
 - **Asset**\
+This table contains all the symbol list that Yahoo Finance has, it will be filled by a [ETL Process](https://github.com/JuanPChicaC/DataBases/tree/main/ETL)
 - **TYpe_Asset**\
+
 - **Exchange**\
