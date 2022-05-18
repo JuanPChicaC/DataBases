@@ -7,8 +7,8 @@ import json
 from os import path, mkdir
 from datetime import datetime, timedelta
 
-#console = logging.StreamHandler()
-#logging.getLogger().addHandler(console)
+console = logging.StreamHandler()
+logging.getLogger().addHandler(console)
 
 
 
