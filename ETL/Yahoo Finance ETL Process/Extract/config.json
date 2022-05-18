@@ -1,0 +1,93 @@
+{
+    "urls" : {
+        "host" : "https://finance.yahoo.com/lookup/",
+        "search by name content" : "https://finance.yahoo.com/lookup/all?s={content}",
+        "search by name content and records" : "https://finance.yahoo.com/lookup/all?s={content}&t=d&b={beggining_record}&c={rows_amount}",
+        "search by type, content and records" : "https://finance.yahoo.com/lookup/{type}?s={content}&t=d&b={beggining_record}&c={rows_amount}"
+        },
+    "queries" : {
+        "rows_limit" : 10000,
+        "max_rows_loaded" : 10000,
+        "null values" : "N/A",
+        "header information" : {
+            "tag" : "section ul li a span",
+            "data" : {
+                "stocks" : {
+                    "label" : "equity",
+                    "location" : 1,
+                    "header label" : "Stocks"
+                    },
+                "funds" : {
+                    "label" : "mutualfund",
+                    "location" : 2,
+                    "header label" : "Mutual Funds"
+                    },
+                "etfs" : {
+                    "label" : "etf",
+                    "location" : 3,
+                    "header label" : "ETFs"
+                    },
+                "indixes" : {
+                    "label" : "index",
+                    "location" : 4,
+                    "header label" : "Indices"
+                    },
+                "futures" : {
+                    "label" : "future",
+                    "location" : 5,
+                    "header label" : "Futures"
+                    },
+                "currencies" : {
+                    "label" : "currency",
+                    "location" : 5,
+                    "header label" : "Currencies"
+                    }
+                }
+            },
+        "table information" : {
+            "tag" : "tbody",
+            "rows information" :{
+                "tag" : "tr",
+                "components" : {
+                    "tag" : "td",
+                    "data" :{   
+                        "name" : {
+                            "location" : 1
+                            },
+                        "symbol" : {
+                            "location" : 0
+                            },
+                        "type" : {
+                            "location" : 4
+                            },
+                        "exchange" : {
+                            "location" : 5
+                            },
+                        "last price" : {
+                            "location" : 2
+                            }
+                        }
+                    }
+                }  
+            }
+        },
+    "web scrapper" : {
+        "search content options" : [
+            "a", "b", "c", "d", "e", "f", "g", "h",
+            "i", "j", "k", "l", "m", "n", "o", "p", 
+            "q", "r", "s", "t", "u", "v", "w", "x", 
+            "y", "z"
+            ],
+        "asset types" : [
+            "equity", "mutualfund", "etf", "index", "future", "currency"
+            ],
+        "driver name" : "driver/chromedriver",
+        "filename_extraction" : "data_extracted_{content}_{type_asset}.json",
+        "extraction_location" : "extraction"
+        }
+
+    }
+
+
+
+
