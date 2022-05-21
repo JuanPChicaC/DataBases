@@ -1,7 +1,6 @@
 import json
 import logging
 
-
 logging.basicConfig(
     filename = "Log.log",
     filemode = "w",
@@ -24,6 +23,3 @@ def config():
             file.close()
     
     return __config
-
-
-
