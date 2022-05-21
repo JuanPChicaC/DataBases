@@ -1,0 +1,30 @@
+{
+    "drop duplicates options" : {
+        "columns criteria" : [
+            "symbol"
+            ],
+        "keep" : "last"
+        },
+    "empty identifier" : "N/A", 
+    "configuration options" : {
+        "drop duplicates options" : {
+            "columns criteria" : [
+                "name", "symbol", "type", "exchange", "last price"
+                ],
+            "keep" : [
+                "first", "last"
+                ]
+            },
+        "drop files options" : {
+            "y" : 1,
+            "n" : 0
+            }
+        },
+    "transformation config" : {
+        "transformation location" : "transformation",
+        "filename new data" : "transformed_new_data_{type_asset}.json",
+        "filename data to delete" : "transformed_delete_data_{type_asset}.json",
+        "type asset file" : "type_asset.json",
+        "exchange file" : "exchange.json"
+        }
+}
